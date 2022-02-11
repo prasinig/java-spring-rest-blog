@@ -38,6 +38,7 @@ public class DatabaseLoader implements ApplicationRunner {
             Post post = new Post(title, "Lorem ipsum dolor sit amet, consectetur adipiscing elit… ");
             randomPosts.add(post);
         });
+        System.out.println("test");
         postRepository.saveAll(randomPosts);
     }
 }
