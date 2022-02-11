@@ -21,6 +21,7 @@ public class DatabaseLoader implements ApplicationRunner {
     public List<Author> authors = new ArrayList<>();
 
 
+
     public DatabaseLoader(PostRepository postRepository) {
         this.postRepository = postRepository;
     }
